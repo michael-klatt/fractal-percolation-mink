@@ -14,14 +14,20 @@ Maintainer: Michael Andreas Klatt (<software@mklatt.org>)
 License: GNU GPLv3  
 Version: 19.01
 
-##Example
+Example
+=======
+
 First compile the code using the command
+
                        make
+
 Note that this package uses boost and gsl libraries.
 
 The mean Euler characteristic of fractal percolation can simply be
 computed by the command
+
                        ./FractalPercolationMink_NN -n 8 -M 2 -p 0.5 -R 100
+
 for an approximation level n=8 with subdivisions M=2 for a probability
 of survival p=0.5, where the mean value and standard error of the mean
 (based on 100 runs) is written to a file in the subfolder "./output/".
@@ -32,7 +38,9 @@ Columns in outputfile:
  * 3rd column: standard error of the mean
  * 4th column: level n of approximation
 
-##Parameters
+Parameters
+==========
+
 The parameters can either by chosen via the command line or via a
 configuration file (default file name 'FractalPercolationMink.conf')
 
@@ -45,7 +53,8 @@ configuration file (default file name 'FractalPercolationMink.conf')
  * imageout ---          Flag whether a pgm image shall be created
  * seed ---              Seed of the random number generator
 
-##Executables
+Executables
+===========
 
 There are four executables from which the user can decide to compute the
 Euler characteristic of
@@ -54,17 +63,25 @@ Euler characteristic of
 * connecting only nearest neighbors (maximum four-fold connected) or
   also next-to-nearest neighbors (maximum eight-fold connected graph).
 
-###FractalPercolationMink_NN
+FractalPercolationMink_NN
+-------------------------
+
 All clusters connecting only nearest neighbors
 
-###FractalPercolationMink_NN_percolating_cluster
+FractalPercolationMink_NN_percolating_cluster
+---------------------------------------------
+
 Percolating cluster connecting only nearest neighbors
 
-###FractalPercolationMink_NNN
+FractalPercolationMink_NNN
+--------------------------
+
 All clusters connecting nearest neighbors and next-to-nearest
 neighbors
 
-###FractalPercolationMink_NNN_percolating_cluster
+FractalPercolationMink_NNN_percolating_cluster
+----------------------------------------------
+
 Percolating cluster connecting nearest neighbors and next-to-nearest
 next-to-nearest neighbors 
 
