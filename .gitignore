@@ -33,5 +33,6 @@ FractalPercolationMink_NNN
 FractalPercolationMink_NNN_percolating_cluster
 
 #Back-up files
+*.swp
 *~
 
