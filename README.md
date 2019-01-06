@@ -11,9 +11,13 @@ characteristic) as well as their generalization to Minkowski tensors to
 quantify anisotropy.
 
 Author: Michael Andreas Klatt
+
 Contributor: Steffen Winter
+
 Maintainer: Michael Andreas Klatt (<software@mklatt.org>)  
+
 License: GNU GPLv3  
+
 Version: 19.01
 
 Example
