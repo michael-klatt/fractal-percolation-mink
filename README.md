@@ -1,9 +1,9 @@
 # FractalPercolationMink
 **Approximate fractal percolation and compute its Euler characteristic**  
 C++ code to simulate finite approximations of fractal percolation and to
-analyze their geometry by estimating the expected Euler characteristic, see
+analyze their geometry by estimating the expected Euler characteristic, see [arXiv:1812.06305](http://arxiv.org/abs/1812.06305)
 
-                       M.A. Klatt and S. Winter (2018) "Geometric functionals of fractal percolation", [arXiv:1812.06305](http://arxiv.org/abs/1812.06305)
+                       M.A. Klatt and S. Winter (2018) "Geometric functionals of fractal percolation"
 
 More generally the code can simulate pixelated random sets and compute the
 Minkowski functionals or intrinsic volumes (area, perimeter, and Euler
